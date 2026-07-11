@@ -1,15 +1,17 @@
 { pkgs, ... }:
 
 {
- 
+ programs.steam = {
+  enable = true;
+  package = pkgs.millennium-steam;
+};
  # Programs enable
  programs.fish.enable = true;
  programs.firefox.enable = true;
- programs.steam.enable = true;
  services.flatpak.enable = true;
  services.printing.enable = false; 
  services.gnome.gnome-keyring.enable = true;
-
+ services.power-profiles-daemon.enable = true;
 # Nonfree stuff from below
  nixpkgs.config.allowunfree = true; 
  environment.systemPackages = with pkgs; [
@@ -38,5 +40,12 @@
  nwg-look
  featherpad
  krita
+ brightnessctl
+ playerctl
+ pulseaudio
+ power-profiles-daemon
+ wine
+ goverlay
+ scrcpy
 ];
 }

@@ -16,7 +16,11 @@
   libXrender
   libXfixes
   libXxf86vm
-
+  libGLU
+  libGL
+  openal
+  libpulseaudio
+  
   alsa-lib
   libGL
   SDL2

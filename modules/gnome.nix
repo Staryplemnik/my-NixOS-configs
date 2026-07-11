@@ -9,5 +9,11 @@
   services.gnome.core-developer-tools.enable = false;
   services.gnome.games.enable = false;
   environment.gnome.excludePackages = with pkgs; [];
+  
+  # Extensions 
+  
+    environment.systemPackages = with pkgs; [
+    gnome-tweaks 
+];
 
 }
