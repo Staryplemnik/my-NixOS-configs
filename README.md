@@ -1,1 +1,1 @@
-Its just mine configs for NixOS, use if you want to
+Its just mine config and modules for NixOS, ill make installer for it soon
