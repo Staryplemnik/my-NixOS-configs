@@ -1,0 +1,106 @@
+configuration {
+    modi: "drun,run,window";
+    show-icons: true;
+    terminal: "kitty";
+    display-drun: "󱄅";
+    display-run: "";
+    display-window: "";
+
+    kb-cancel: "Escape";
+    font: "JetBrainsMono Nerd Font 12";
+}
+
+* {
+    bg:         #000000;
+    bg-alt:     #000000;
+    fg:         #ffffff;
+    fg-alt:     #888888;
+    border:     #303030;
+    selected:   #000000;
+}
+
+window {
+    location: center;
+    anchor: center;
+
+    width: 40%;
+
+    transparency: "real";
+    background-color: #000000;
+
+    border: 2px;
+    border-color: @border;
+    border-radius: 16px;
+
+    padding: 18px;
+}
+
+mainbox {
+    spacing: 12px;
+}
+
+inputbar {
+    children: [ prompt, entry ];
+
+    background-color: #000000;
+
+    border: 1px;
+    border-color: @border;
+    border-radius: 10px;
+
+    padding: 10px;
+}
+
+prompt {
+    text-color: @fg-alt;
+    padding: 0px 8px 0px 0px;
+}
+
+entry {
+    text-color: @fg;
+    placeholder: "Search faster nigga!!";
+    placeholder-color: @fg-alt;
+}
+
+message {
+    enabled: false;
+}
+
+listview {
+    background-color: transparent;
+    spacing: 8px;
+    lines: 8;
+    scrollbar: false;
+}
+
+element {
+    orientation: horizontal;
+    spacing: 10px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #000000;
+}
+
+element normal.normal {
+    background-color: #000000;
+    text-color: #ffffff;
+}
+
+element selected.normal {
+    background-color: #202020;
+    text-color: #ffffff;
+}
+
+element alternate.normal {
+    background-color: #000000;
+    text-color: #ffffff;
+}
+
+element-icon {
+    background-color: transparent;
+}
+
+element-text {
+    background-color: transparent;
+    text-color: inherit;
+}
