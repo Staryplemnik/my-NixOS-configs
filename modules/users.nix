@@ -6,6 +6,6 @@
     isNormalUser = true;
     description = "damian";
     shell = pkgs.fish;
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "libvirtd" ];
     };
 }

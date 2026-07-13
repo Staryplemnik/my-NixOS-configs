@@ -15,6 +15,7 @@
       ./modules/xserver.nix
       ./modules/sway.nix
       ./modules/nix-ld.nix
+      ./modules/gnome.nix
 ]; 
   # Nix-OS flake
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
