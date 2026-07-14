@@ -7,5 +7,7 @@
   boot.loader.systemd-boot.configurationLimit = 5;
   
   # Kernel
-  boot.kernelPackages = pkgs.linuxPackages_latest;
+  #boot.kernelPackages = pkgs.linuxPackages_latest;
+  boot.kernelPackages = pkgs.linuxPackages_zen;
 }
+
