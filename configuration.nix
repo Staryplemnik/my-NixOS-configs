@@ -13,7 +13,6 @@
       ./modules/udev-rules.nix
       ./modules/bootloader.nix
       ./modules/xserver.nix
-      ./modules/sway.nix
       ./modules/nix-ld.nix
       ./modules/gnome.nix
 ]; 

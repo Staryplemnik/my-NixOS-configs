@@ -2,14 +2,6 @@
 
 
 {
-  programs.obs-studio = {
-    enable = true;
-    enableVirtualCamera = true;
-    plugins = with pkgs.obs-studio-plugins; [
-      droidcam-obs
-    ];
-  };
-
   programs.steam = {
    enable = true;
    package = pkgs.millennium-steam;
@@ -36,28 +28,14 @@
    shotcut
    vlc
    mangohud
-   mako
-   wl-clipboard
-   grim
-   rofi
-   slurp
    waybar
    nautilus
    pavucontrol
-   xdg-desktop-portal
-   xdg-desktop-portal-wlr
-   xdg-desktop-portal-gtk
-   nwg-look
    featherpad
    krita
-   brightnessctl
-   playerctl
    pulseaudio
    power-profiles-daemon
    wine
    goverlay
-   scrcpy
-   gnome-boxes
-   droidcam
   ];
 }
