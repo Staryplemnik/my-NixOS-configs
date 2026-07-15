@@ -13,8 +13,6 @@
   services.printing.enable = false; 
   services.gnome.gnome-keyring.enable = true;
   services.power-profiles-daemon.enable = true;
-  virtualisation.libvirtd.enable = true;
-  programs.virt-manager.enable = true;
   # Nonfree stuff from below
   nixpkgs.config.allowUnfree = true; 
   environment.systemPackages = with pkgs; [
