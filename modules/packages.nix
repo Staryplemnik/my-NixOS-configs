@@ -8,7 +8,7 @@
   };
   # Programs enable
   programs.fish.enable = true;
-  programs.firefox.enable = true;
+  programs.firefox.enable = false;
   services.flatpak.enable = true;
   services.printing.enable = false; 
   services.gnome.gnome-keyring.enable = true;
@@ -35,5 +35,6 @@
    power-profiles-daemon
    wine
    goverlay
+   helium
   ];
 }
