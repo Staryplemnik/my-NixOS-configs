@@ -36,5 +36,7 @@
    wine
    goverlay
    helium
+   python3
+   gnome-system-monitor 
   ];
 }
