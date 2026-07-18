@@ -16,6 +16,7 @@
       ./modules/nix-ld.nix
       ./modules/gnome.nix
       ./modules/overlay.nix
+      ./modules/intel.nix
 ]; 
   # Nix-OS flake
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
