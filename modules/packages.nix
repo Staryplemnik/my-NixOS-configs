@@ -13,7 +13,7 @@
   services.printing.enable = false; 
   services.gnome.gnome-keyring.enable = true;
   services.power-profiles-daemon.enable = true;
-  # Nonfree stuff from below
+ # Nonfree stuff from below
   nixpkgs.config.allowUnfree = true; 
   environment.systemPackages = with pkgs; [
    vim
