@@ -11,7 +11,7 @@
   programs.firefox.enable = false;
   services.flatpak.enable = true;
   services.printing.enable = false; 
-  services.gnome.gnome-keyring.enable = true;
+  services.gnome.gnome-keyring.enable = false;
   services.power-profiles-daemon.enable = true;
  # Nonfree stuff from below
   nixpkgs.config.allowUnfree = true; 
@@ -25,19 +25,13 @@
    fastfetch
    shotcut
    vlc
-   mangohud
-   waybar
-   nautilus
-   pavucontrol
-   featherpad
    krita
    pulseaudio
    power-profiles-daemon
    wine
-   goverlay
    helium
    python3
-   gnome-system-monitor
-   swayimg 
+   gnome-system-monitor 
+   gamescope
   ];
 }

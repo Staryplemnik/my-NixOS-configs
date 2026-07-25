@@ -14,9 +14,10 @@
       ./modules/bootloader.nix
       ./modules/xserver.nix
       ./modules/nix-ld.nix
-      ./modules/gnome.nix
       ./modules/overlay.nix
       ./modules/intel.nix
+      ./modules/plasma.nix
+      ./modules/waydroid.nix
 ]; 
   # Nix-OS flake
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
