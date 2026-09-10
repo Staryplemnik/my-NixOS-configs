@@ -20,6 +20,7 @@
       ./modules/sway.nix
       ./modules/spicetify.nix
       ./modules/hyprland.nix
+      ./modules/ntfs.nix
 ]; 
   # Nix-OS flake
   nix.settings.experimental-features = [ "nix-command" "flakes" ];

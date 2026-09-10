@@ -36,5 +36,12 @@
    spotify
    godot
    unzip
+   wl-clipboard
+   rofi
+   swaybg
+   grim
+   slurp
+   waybar
+   ntfs3g
  ];
 }
