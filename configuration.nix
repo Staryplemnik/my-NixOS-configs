@@ -19,8 +19,8 @@
       ./modules/plasma.nix
       ./modules/sway.nix
       ./modules/spicetify.nix
-      ./modules/hyprland.nix
       ./modules/ntfs.nix
+      ./modules/niri.nix
 ]; 
   # Nix-OS flake
   nix.settings.experimental-features = [ "nix-command" "flakes" ];

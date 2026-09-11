@@ -8,7 +8,7 @@
   };
   # Programs enable
   programs.fish.enable = true;
-  programs.firefox.enable = false;
+  programs.firefox.enable = true;
   services.flatpak.enable = true;
   services.printing.enable = false; 
   services.gnome.gnome-keyring.enable = true;
@@ -19,7 +19,7 @@
    wget
    vim
    kitty
-   discord
+   vesktop
    git
    prismlauncher
    obs-studio
@@ -30,7 +30,6 @@
    pulseaudio
    power-profiles-daemon
    wine
-   helium
    python3
    swayimg 
    spotify
@@ -43,5 +42,14 @@
    slurp
    waybar
    ntfs3g
+   pavucontrol
+   nautilus
+   vscodium
+   gcc
+   python3
+   helium
+   xwayland-satellite
+   xdg-desktop-portal-gnome
+   xdg-desktop-portal
  ];
 }
