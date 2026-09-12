@@ -13,7 +13,10 @@
   services.printing.enable = false; 
   services.gnome.gnome-keyring.enable = true;
   services.power-profiles-daemon.enable = true;
- # Nonfree stuff from below
+  virtualisation.libvirtd.enable = true;
+  programs.virt-manager.enable = true;
+
+  # Nonfree stuff from below
   nixpkgs.config.allowUnfree = true; 
   environment.systemPackages = with pkgs; [
    wget
@@ -50,6 +53,9 @@
    helium
    xwayland-satellite
    xdg-desktop-portal-gnome
+   thunar
    xdg-desktop-portal
+   qemu_full
+   virt-manager
  ];
 }

@@ -16,8 +16,6 @@
       ./modules/nix-ld.nix
       ./modules/overlay.nix
       ./modules/intel.nix
-      ./modules/plasma.nix
-      ./modules/sway.nix
       ./modules/spicetify.nix
       ./modules/ntfs.nix
       ./modules/niri.nix
