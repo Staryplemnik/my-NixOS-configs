@@ -56,6 +56,12 @@
    thunar
    xdg-desktop-portal
    qemu_full
+   lutris
    virt-manager
+   playerctl
+   brightnessctl
+   blueman
+   haxe
+   btop
  ];
 }
