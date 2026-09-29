@@ -18,7 +18,7 @@
       ./modules/intel.nix
       ./modules/spicetify.nix
       ./modules/ntfs.nix
-      ./modules/hyprland.nix
+      ./modules/mangowm.nix
       ./modules/plasma.nix
 ]; 
   # Nix-OS flake

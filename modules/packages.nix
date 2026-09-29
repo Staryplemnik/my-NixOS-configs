@@ -15,12 +15,14 @@
   services.power-profiles-daemon.enable = true;
   virtualisation.libvirtd.enable = true;
   programs.virt-manager.enable = true;
-
+  programs.mango.enable = true;
   # Nonfree stuff from below
   nixpkgs.config.allowUnfree = true; 
   environment.systemPackages = with pkgs; [
    wget
+   slurp
    vim
+   fuse
    kitty
    vesktop
    git
@@ -28,6 +30,7 @@
    obs-studio
    fastfetch
    shotcut
+   mako
    vlc
    krita
    pulseaudio
@@ -53,7 +56,9 @@
    xwayland-satellite
    xdg-desktop-portal-gnome
    xdg-desktop-portal
+   xdg-desktop-portal-wlr
    qemu_full
+   swaybg
    lutris
    virt-manager
    playerctl

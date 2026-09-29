@@ -4,7 +4,16 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-26.05";
     spicetify-nix.url = "github:Gerg-L/spicetify-nix";
     spicetify-nix.inputs.nixpkgs.follows = "nixpkgs";
-    helium = {
+    fluxer.url = "github:Hy4ri/fluxer-flake";
+    aerothemeplasma-nix = {
+      url = "github:nyakase/aerothemeplasma-nix";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+    mangowm = {
+      url = "github:mangowm/mango";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+     helium = {
       url = "github:schembriaiden/helium-browser-nix-flake";
       inputs.nixpkgs.follows = "nixpkgs";
     };
@@ -15,6 +24,7 @@
       specialArgs = { inherit inputs; };
       modules = [
         ./configuration.nix
+        aerothemeplasma-nix.nixosModules.aerothemeplasma-nix
       ];
     };
   };
