@@ -18,8 +18,8 @@
       ./modules/intel.nix
       ./modules/spicetify.nix
       ./modules/ntfs.nix
-      ./modules/mangowm.nix
-      ./modules/plasma.nix
+      ./modules/mango.nix
+      ./modules/xfce.nix
 ]; 
   # Nix-OS flake
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
